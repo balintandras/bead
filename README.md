@@ -42,7 +42,7 @@ Tantárgyak felvétele/tárolása
 ![Osztálymodell](images/modell.jpg)
 
 ###Megjelenés
-
+(bootswatch.com)
 ![Megjelenésl](images/design.jpg)
 
 ##Implementáció

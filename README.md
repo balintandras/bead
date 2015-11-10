@@ -1,1 +1,5 @@
-# bead
+# Beadandó
+
+Tantárgyak felvétele/tárolása
+
+

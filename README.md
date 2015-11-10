@@ -33,6 +33,7 @@ Tantárgyak felvétele/tárolása
 
 ###Végpontok
 
+![Kép felirata](images/vegpont.jpg)
 
 ###Osztálymodell
 

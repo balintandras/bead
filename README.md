@@ -14,6 +14,8 @@ Tantárgyak felvétele/tárolása
  - Szerepkörök
    - Felhasználó: (felvehet, listázhat, törölhet tárgyakat)
  - Használati eset diagram:
+ ![Diagram](images/diagram.jpg)
+ 
  - Folyamatok pontos menete:
    - bejelentkezés vagy regisztráció, ezután a felhasználó használhatja az oldal funkcióit, a hozzáadásra kattintás után, a már hozzáadott tárgyakat listázhatja, ha a listázásra kattint.
 
@@ -33,13 +35,15 @@ Tantárgyak felvétele/tárolása
 
 ###Végpontok
 
-![Kép felirata](images/vegpont.jpg)
+![Végpontok](images/vepont.jpg)
 
 ###Osztálymodell
 
-
+![Osztálymodell](images/modell.jpg)
 
 ###Megjelenés
+
+![Megjelenésl](images/design.jpg)
 
 ##Implementáció
 

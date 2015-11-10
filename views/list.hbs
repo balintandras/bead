@@ -1,0 +1,39 @@
+<h1>Listázás</h1>
+<div class="panel">
+  <form method="get" action="/list" >
+    <div class="form-group">
+      <div class="col-lg-6 col-lg-offset-2">
+        <input type="integer" class="form-control" 
+               name="query" id="search" 
+               {{#if query}}
+               value="{{query}}"
+               {{/if}}
+               placeholder="Írja be, hogy melyik félévre keres">
+      </div>
+      <div class="col-lg-2">
+        <input type="submit" class="btn btn-primary" value="Keresés">
+      </div>
+    </div>
+  </form>
+</div>
+<table class="table table-striped table-hover ">
+  <thead>
+    <tr>
+      <th>Név</th>
+      <th>Félév</th>
+      <th>Kredit</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each data as |targy|}}
+    <tr>
+      <td>{{targy.nev}}</td>
+      <td>{{targy.felev}}</td>
+      <td>{{targy.kredit}}</td>
+      <td>
+        <a href="/delete/{{targy.id}}">Törlés</a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table> 

@@ -1,0 +1,123 @@
+{
+  "data": {
+    "subject": [
+      {
+        "nev": "Analízis 3",
+        "felev": 4,
+        "kredit": 4,
+        "user": 1,
+        "createdAt": "2015-11-10T16:31:41.776Z",
+        "updatedAt": "2015-11-10T16:31:41.776Z",
+        "id": 1
+      },
+      {
+        "nev": "Alkalmazások fejlesztése",
+        "felev": 5,
+        "kredit": 2,
+        "user": 1,
+        "createdAt": "2015-11-10T16:31:50.864Z",
+        "updatedAt": "2015-11-10T16:31:50.864Z",
+        "id": 2
+      },
+      {
+        "nev": "Diszkrét Matematika 2",
+        "felev": 2,
+        "kredit": 3,
+        "user": 1,
+        "createdAt": "2015-11-10T16:31:58.255Z",
+        "updatedAt": "2015-11-10T16:31:58.255Z",
+        "id": 3
+      }
+    ],
+    "user": [
+      {
+        "surname": "bandras",
+        "forename": "bandras",
+        "neptun": "bandras",
+        "password": "$2a$10$egLEJF068Q7ZcV7AcF85cenH1f.zfYe9hXLi.OspMGV8aq7emIrna",
+        "avatar": "",
+        "role": "riporter",
+        "createdAt": "2015-11-10T16:31:31.471Z",
+        "updatedAt": "2015-11-10T16:31:31.472Z",
+        "id": 1
+      }
+    ]
+  },
+  "schema": {
+    "subject": {
+      "nev": {
+        "type": "string"
+      },
+      "felev": {
+        "type": "integer"
+      },
+      "kredit": {
+        "type": "integer"
+      },
+      "user": {
+        "type": "integer",
+        "model": "user",
+        "foreignKey": true,
+        "alias": "user"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    },
+    "user": {
+      "neptun": {
+        "type": "string",
+        "unique": true
+      },
+      "password": {
+        "type": "string"
+      },
+      "surname": {
+        "type": "string"
+      },
+      "forename": {
+        "type": "string"
+      },
+      "avatar": {
+        "type": "string"
+      },
+      "role": {
+        "type": "string",
+        "enum": [
+          "riporter",
+          "operator"
+        ],
+        "defaultsTo": "riporter"
+      },
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "subject": {
+      "id": 3
+    },
+    "user": {
+      "id": 1
+    }
+  }
+}

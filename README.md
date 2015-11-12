@@ -58,6 +58,12 @@ Tantárgyak felvétele/tárolása
 
 ##Tesztelés
 
+https://drive.google.com/file/d/0B2Uqe0igK_cZSkM5aXBjdWlwREU/view?usp=sharing
+https://drive.google.com/file/d/0B2Uqe0igK_cZdHpqdjZaYUxQMjQ/view?usp=sharing
+https://drive.google.com/file/d/0B2Uqe0igK_cZVGVfTUVjaWFVNjQ/view?usp=sharing
+https://drive.google.com/file/d/0B2Uqe0igK_cZUG1zU1MtZkJEUEE/view?usp=sharing
+
+
 ##Felhasználói dokumentáció
 
 - A program futtattásához egy böngésző program szükséges, pl. Google Chrome, Opera, Firefox
